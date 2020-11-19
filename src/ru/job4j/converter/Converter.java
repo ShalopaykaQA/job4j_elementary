@@ -12,10 +12,11 @@ public class Converter {
         return value / 60;
     }
 
+    @SuppressWarnings("checkstyle:MethodParamPad")
     public static void main(String[] args) {
         int euro = Converter.rubleToEuro(140);
         System.out.println("140 rubles are " + euro + " euro.");
-        int doll = Converter.rubleToDollar (1200);
+        int doll = Converter.rubleToDollar(1200);
         System.out.println("1200 rubles are " + doll + " doll ");
     }
 }
