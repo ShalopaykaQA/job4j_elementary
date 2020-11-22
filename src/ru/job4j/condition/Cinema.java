@@ -1,22 +1,21 @@
 package ru.job4j.condition;
 
 public class Cinema {
-    public static void access(int age) {
-        System.out.println("The age of the customer is : " + age);
-        if (age >= 16) {
-            System.out.println("Welcome to the cinema.");
+
+    public static void permission(boolean allowByParent, boolean hasMoney) {
+        boolean permission = allowByParent && hasMoney;
+        if (permission) {
+            System.out.println("I can go to the cinema.");
         } else {
-            System.out.println("It is not for you.");
+            System.out.println("I can't.");
         }
     }
 
     public static void main(String[] args) {
-        Cinema.access(21);
-        Cinema.access(15);
-        Cinema.access(50);
-        Cinema.access(13);
-        Cinema.access(18);
-        Cinema.access(10);
+        Cinema.permission(true, true);
+        Cinema.permission(true, false);
+        Cinema.permission(false, true);
+        Cinema.permission(false, false);
 
     }
 }
