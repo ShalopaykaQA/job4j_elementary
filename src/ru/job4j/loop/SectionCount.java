@@ -11,4 +11,3 @@ public class SectionCount {
         return count;
     }
 }
-
