@@ -1,4 +1,6 @@
-package ru.job4j.loop;
+package ru.job4j.loop.exercise;
+
+import ru.job4j.loop.exercise.CheckPrimeNumber;
 
 public class PrimeNumber {
     public static int calc(int finish) {

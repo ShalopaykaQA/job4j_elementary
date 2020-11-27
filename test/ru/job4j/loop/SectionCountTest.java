@@ -1,6 +1,7 @@
 package ru.job4j.loop;
 
 import org.junit.Test;
+import ru.job4j.loop.exercise.SectionCount;
 
 import static org.junit.Assert.*;
 

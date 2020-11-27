@@ -1,4 +1,4 @@
-package ru.job4j.loop;
+package ru.job4j.loop.exercise;
 
 public class DigitSum {
     public static int sum(int num) {
@@ -6,9 +6,9 @@ public class DigitSum {
         do  {
             sum += num % 10;
             num /= 10;
-            }
+        }
         while ((num / 10) > 0);
         sum += num % 10;
-            return sum;
+        return sum;
     }
 }
