@@ -6,7 +6,7 @@ public class SectionCount {
         while (length >= section) {
             count = length - section;
             count++;
-           break;
+            break;
         }
         return count;
     }
