@@ -1,4 +1,4 @@
-package ru.job4j.loop;
+package ru.job4j.loop.exercise;
 
 public class Multipliers {
     public static void out(int n) {
