@@ -39,9 +39,9 @@ public class MatrixCheck {
                     result = true;
                     break;
                 }
-                return false;
             }
         }
         return result;
     }
 }
+
